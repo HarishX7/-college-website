@@ -1,0 +1,342 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    color: rgb(31, 173, 244);
+}
+
+header {
+    background-color: #dbe2e4;
+    color: rgb(235, 33, 33);
+    padding: 20px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header .logo h1 {
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+
+header nav ul {
+    list-style-type: none;
+    float: right;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: rgb(47, 46, 46);
+    text-decoration: none;
+    font-size: 16px;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+.hero {
+    background: url('/Users/koushikraahulgmail.com/Downloads/college-background-kt8cnwjpgnikeqfd.jpg') no-repeat center center/cover;
+    color: white;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 20px;
+    position: relative;
+}
+
+.hero h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    animation: fadeInDown 2s;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    animation: fadeInUp 2s;
+}
+
+.cta-button {
+    background-color: #e8491d;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+    animation: fadeInUp 2s;
+}
+
+.cta-button:hover {
+    background-color: #c73f15;
+}
+
+@keyframes fadeInDown {
+    0% { opacity: 0; transform: translateY(-30px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeInUp {
+    0% { opacity: 0; transform: translateY(30px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+
+.about-section {
+    padding: 60px 0;
+    background-color: white;
+    text-align: center;
+}
+
+.about-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.about-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    width: 30%;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 16px;
+}
+
+
+.admissions-section {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.admissions-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.admissions-process {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.step {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    width: 22%;
+    transition: transform 0.3s ease;
+}
+
+.step:hover {
+    transform: scale(1.05);
+}
+
+.step h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.step p {
+    font-size: 16px;
+}
+
+
+.courses-section {
+    padding: 60px 0;
+    background-color: white;
+    text-align: center;
+}
+
+.courses-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.course-selection {
+    margin-bottom: 30px;
+}
+
+.course-selection label {
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.course-selection select {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.course-info {
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #f4f4f4;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.course-info h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.course-info p {
+    font-size: 16px;
+}
+
+
+.news-section {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.news-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.news-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.news-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    width: 30%;
+    transition: transform 0.3s ease;
+}
+
+.news-card:hover {
+    transform: scale(1.05);
+}
+
+.news-card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.news-card p {
+    font-size: 16px;
+}
+
+
+.contact-section {
+    padding: 60px 0;
+    background-color: white;
+    text-align: center;
+}
+
+.contact-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.contact-item {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    width: 30%;
+}
+
+.contact-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.contact-item p {
+    font-size: 16px;
+}
+
+
+footer {
+    background-color: #3a3a4d;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+
+@media (max-width: 768px) {
+    header nav ul {
+        float: none;
+        text-align: center;
+    }
+
+    header nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .about-cards, .admissions-process, .news-cards, .contact-info {
+        flex-direction: column;
+    }
+
+    .card, .step, .news-card, .contact-item {
+        width: 80%;
+        margin: 10px auto;
+    }
+}

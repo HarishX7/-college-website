@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HMK College</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>HMK College</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#admissions">Admissions</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#news">News</a></li>
+                    <li><a href="#contact">Contact</a></li>s
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h2 style="color: rgb(43, 180, 243);">Welcome to HMK College</h2>
+            <p style="color: rgb(50, 221, 248);"></p>Your journey towards excellence begins here. Discover the courses that suit your aspirations.</p>
+            <a href="#courses" class="cta-button">Explore Courses</a>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>HMK College has been at the forefront of education for over 30 years. Our mission is to provide students with the knowledge and skills needed to succeed in a global environment.</p>
+            <div class="about-cards">
+                <div class="card">
+                    <h3>Our History</h3>
+                    <p>Established in 1990, HMK College has a rich history of academic excellence and innovation in education.</p>
+                </div>
+                <div class="card">
+                    <h3>Our Mission</h3>
+                    <p>We aim to empower our students with the skills and knowledge necessary to thrive in their chosen fields.</p>
+                </div>
+                <div class="card">
+                    <h3>Our Vision</h3>
+                    <p>To be a leading institution recognized for its educational excellence and social impact.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="admissions" class="admissions-section">
+        <div class="container">
+            <h2>Admissions</h2>
+            <p>Join our vibrant community of learners. Find out how you can apply to HMK College.</p>
+            <div class="admissions-process">
+                <div class="step">
+                    <h3>Step 1: Choose Your Program</h3>
+                    <p>Select from our diverse range of undergraduate and postgraduate programs.</p>
+                </div>
+                <div class="step">
+                    <h3>Step 2: Submit Your Application</h3>
+                    <p>Fill out our online application form and submit your required documents.</p>
+                </div>
+                <div class="step">
+                    <h3>Step 3: Attend an Interview</h3>
+                    <p>Our admissions team will invite you for an interview to discuss your goals and aspirations.</p>
+                </div>
+                <div class="step">
+                    <h3>Step 4: Receive Your Offer</h3>
+                    <p>If successful, you will receive an offer letter and can begin your journey with us.</p>
+                </div>
+            </div>
+            <a href="#contact" class="cta-button">Apply Now</a>
+        </div>
+    </section>
+
+    <section id="courses" class="courses-section">
+        <div class="container">
+            <h2>Our Courses</h2>
+            <p>Select a course to learn more about what we offer.</p>
+            <div class="course-selection">
+                <label for="course">Choose a Course:</label>
+                <select id="course" name="course" onchange="displayCourseInfo()">
+                    <option value="default">--Select a Course--</option>
+                    <option value="computer-science">Computer Science</option>
+                    <option value="business-management">Business Management</option>
+                    <option value="art-and-design">Art and Design</option>
+                    <option value="engineering">Engineering</option>
+                    <option value="medicine">Medicine</option>
+                </select>
+            </div>
+
+            <div id="course-info" class="course-info">
+                <h3>Course Information</h3>
+                <p>Select a course to see details.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="news" class="news-section">
+        <div class="container">
+            <h2>Latest News</h2>
+            <div class="news-cards">
+                <div class="news-card">
+                    <h3>New Campus Facilities</h3>
+                    <p>We are excited to announce the opening of our new state-of-the-art facilities this fall.</p>
+                </div>
+                <div class="news-card">
+                    <h3>Scholarship Opportunities</h3>
+                    <p>HMK College is offering new scholarships for students enrolling in 2024. Apply now!</p>
+                </div>
+                <div class="news-card">
+                    <h3>Upcoming Events</h3>
+                    <p>Join us for our annual open day and experience campus life at HMK College.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Have questions? We're here to help. Reach out to us via the following methods.</p>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <h3>Email</h3>
+                    <p><a href="mailto:info@HMKcollege.com">info@HMKcollege.com</a></p>
+                </div>
+                <div class="contact-item">
+                    <h3>Phone</h3>
+                    <p>+91 1234567890</p>
+                </div>
+                <div class="contact-item">
+                    <h3>Address</h3>
+                    <p>123 College Avenue, Coimbatore, India</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 HMK College. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
